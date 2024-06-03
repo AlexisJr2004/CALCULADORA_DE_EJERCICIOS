@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="./style.css">
+    <title>PROYECTO</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="wave">
+            <span style="--item:1">C</span>
+            <span style="--item:2">A</span>
+            <span style="--item:3">L</span>
+            <span style="--item:4">C</span>
+            <span style="--item:5">U</span>
+            <span style="--item:6">L</span>
+            <span style="--item:7">A</span>
+            <span style="--item:8">D</span>
+            <span style="--item:9">O</span>
+            <span style="--item:10">R</span>
+            <span style="--item:11">A</span>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form action="">
+    <table>
+        <tr>
+            <td colspan="5"><input id="result" autocomplete="off" ></td> 
+        </tr>
+        <tr>
+            <td><button type="button" onclick="cal.base10_2()" class="efecto">Base 10 a 2</button></td>
+            <td><button  type="button" onclick="cal.base10_16()"class="efecto">Base 10 a 16</td>
+            <td><button  type="button" onclick="cal.base10_8()"class="efecto">Base 10 a 8</button></td> 
+            <td><button type="button" onclick="cal.base2_10()"class="efecto">Base 2 a 10</button></td> 
+            <td><button type="button" onclick="cal.base2_16()"class="efecto">Base 2 a 16</button></td> 
+        </tr>
+        <tr>
+            <td><button type="button"  onclick="cal.base2_8()"class="efecto">Base 2 a Base 8</button></td>
+            <td><button type="button"  onclick="cal.BaseN_N()"class="efecto">Base N a Base N </button></td> 
+            <td><button type="button" onclick="cal.calcularBilletes()"class="efecto">Dar Vuelto</button></td>
+            <td><button type="button" onclick="cal.NumeroRomano()"class="efecto">Conversion a Romano</button></td>
+            <td><button type="button" onclick="cal.buscar_cadena()"class="efecto">Buscar Cadena</button></td>
+            
+        </tr>
+        <tr>
+            <td><button type="button" onclick="cal.MayorArreglo()"class="efecto">Mayor Elemento Arreglo</button></td>
+            <td><button type="button" onclick="cal.MenorArreglo()"class="efecto">Menor Elemento Arreglo</button></td> 
+            <td><button type="button" onclick="cal.buscaArreglo()"class="efecto">Buscar Arreglo</button></td>
+            <td><button type="button" onclick="cal.eliminarElementoArreglo()"class="efecto">Eliminar Elemento Arreglo</button></td>
+            <td><button type="button" onclick="cal.insertarElementoArreglo()"class="efecto">Insertar Elemento Arreglo</button></td>
+        </tr>
+        <tr>
+            <td><button type="button" onclick="cal.cadenaArreglo()"class="efecto">Cadena a Arreglo</button></td>
+            <td><button type="button" onclick="cal.arregloCadena()"class="efecto">Arreglo a Cadena</button></td> 
+            <td><button type="button" onclick="cal.PalabraOracion()"class="efecto">Palabra Oracion</button></td>
+            <td><button type="button" onclick="cal.contarElementosEspeciales()" class="efecto">Cantidad Caracter Especiales</button></td>
+            <td><button type="button" onclick="cal.sumaDCadena()"class="efecto">Sumar Digitos con Cadenas</button></td>
+        </tr>
+    </table><br>
+    <br>
+    <div class="container">
+        <div class="button-borders">
+            <button class="primary-button" type="reset">LIMPIAR</button>
+          </div>
+    </div>
+    </form>
+    <script src="index.js"></script>
+    
+</body>
+</html>
